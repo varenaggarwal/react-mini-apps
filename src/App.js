@@ -13,7 +13,8 @@ export default function App() {
   // function onChangeBirthday(event) {
   //   const birthday = event.target.value;
   //   setBirthday(birthday);
-  }
+  // }
+
   function isLucky() {
     console.log(birthday);
     console.log(luckyNumber);
@@ -25,7 +26,7 @@ export default function App() {
         type="Date"
         onChange={(event) => setLuckNumber(event.target.value)}
       ></input>
-      <input id="birthday" type="number" onChange={(event) => setBirthday(event.target.value))}></input>
+      <input id="birthday" type="number"></input>
       <button onClick={isLucky}>is your birthday lucky?</button>
       <div id="output"></div>
     </div>
