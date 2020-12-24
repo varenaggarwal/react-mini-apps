@@ -5,16 +5,6 @@ export default function App() {
   const [birthday, setBirthday] = useState();
   const [luckyNumber, setLuckNumber] = useState(0);
 
-  // function onChangeLuckyNumber(event) {
-  //   const luckyNumber = event.target.value;
-  //   setLuckNumber(luckyNumber);
-  // }
-
-  // function onChangeBirthday(event) {
-  //   const birthday = event.target.value;
-  //   setBirthday(birthday);
-  // }
-
   function isLucky() {
     console.log(birthday);
     console.log(luckyNumber);
