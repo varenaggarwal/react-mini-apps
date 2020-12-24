@@ -26,7 +26,11 @@ export default function App() {
         type="Date"
         onChange={(event) => setLuckNumber(event.target.value)}
       ></input>
-      <input id="birthday" type="number"></input>
+      <input
+        id="birthday"
+        type="number"
+        onChange={(event) => setBirthday(event.target.value)}
+      ></input>
       <button onClick={isLucky}>is your birthday lucky?</button>
       <div id="output"></div>
     </div>
